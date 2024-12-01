@@ -1,64 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Main Page | Rahmat Alam Barakah</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-</head>
-<body>
-  <nav class="container-fluid">
-    <ul>
-      <li><strong>Charcoal Co.</strong></li>
-    </ul>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#products">Products</a></li>
-      <li><a href="#contact" role="button">Contact Us</a></li>
-    </ul>
-  </nav>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Perusahaan Arang menyediakan produk arang berkualitas tinggi untuk berbagai kebutuhan Anda.">
+    <meta name="keywords" content="arang, produk arang, perusahaan arang, arang berkualitas, produk arang berkualitas">
+    <meta name="author" content="CV Rahmat Alam Barakah">
+    <meta name="robots" content="index, follow">
 
-  <main class="container">
-    <div class="grid">
-      <section id="home">
-        <hgroup>
-          <h2>welcome to Charcoal Co.</h2>
-          <h3>Your Trusted Source for Premium Charcoal Proucts</h3>
-        </hgroup>
+    <!-- Open Graph Meta Tags for social media -->
+    <meta property="og:title" content="Profil Perusahaan Arang CV RAB">
+    <meta property="og:description" content="Perusahaan Arang menyediakan produk arang berkualitas tinggi untuk berbagai kebutuhan Anda.">
+    <meta property="og:image" content="path-to-your-image.jpg">
+    <meta property="og:url" content="https://www.example.com">
+    <meta property="og:type" content="website">
 
-        <p>We specialize in High-Quality charcoal products for both industrial an household use. Discover our range of sustainable and eco-friendly options.</p>
-        <figure>
-          <img src="https://images.unsplash.com/photo-1593642700003-3b3b7f4b3b3b" alt="Charcoal Co.">
-          <figcaption><a href="https://unsplash.com" target="_blank">Image via Unplash</a></figcaption>
-        </figure>
-      </section>
+    <!-- Favicon Links -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/path-to-your-favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/path-to-your-favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/path-to-your-favicon/favicon-16x16.png">
+    <link rel="manifest" href="/path-to-your-favicon/site.webmanifest">
+    <link rel="mask-icon" href="/path-to-your-favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/path-to-your-favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/path-to-your-favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff"> -->
 
-      <section id="products">
-        <hgroup>
-          <h2>Our Products</h2>
-          <h3>High-Quality Charcoal for Every Need</h3>
-        </hgroup>
-        <div class="grid">
-          <article>
-            <h3>industrial Charcoal</h3>
-            <p>High-grade charcoal for industrial processes.</p>
-            <figure>
-              <img src="https://images.unsplash.com/photo-1593642700003-3b3b7f4b3b3b" alt="Industrial Charcoal">
-              <figcaption><a href="https://unsplash.com" target="_blank">Image via Unplash</a></figcaption>
-            </figure>
-          </article>
-          <article>
-            <h3>BBQ Charcoal</h3>
-            <p>Perfect for grilling and backyard barbecues.</p>
-            <figure>
-              <img src="https://images.unsplash.com/photo-1593642700003-3b3b7f4b3b3b" alt="BBQ Charcoal">
-              <figcaption><a href="https://unsplash.com" target="_blank">Image via Unplash</a></figcaption>
-            </figure>
-          </article>
+    <!-- Webpage Title -->
+    <title>HOME | CV Rahmat Alam Barakah</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="header" class="header bg-light border-bottom">
+      <div class="container d-flex justify-content-between align-items-center py-3">
+        
+        <!-- Logo -->
+        <a class="navbar-brand text-dark" href="#">Your Logo</a>
+        
+        <!-- Navigation -->
+        <nav>
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link text-dark" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="product.html">Product</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <!-- Social Media and Language -->
+        <div class="d-flex align-items-center justify-content-center">
+
+          <!-- Social Media Icons -->
+          <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="me-3"><i class="bi bi-youtube"></i></a>
+          
+          <!-- Separator -->
+          <div class="vr mx-3"></div>
+          
+          <!-- Language Switch -->
+          <a href="#" class="me-3"><img src="assets/img/language/indonesia.svg" alt="ID" width="20"></a>
+          <a href="#" class="me-3"><img src="assets/img/language/english.svg" alt="EN" width="20"></a>
+          <a href="#" class="me-3"><img src="assets/img/language/china.svg" alt="CN" width="20"></a>
+
         </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+      <!-- Hero Section -->
+      <section class="hero text-center">
+        <h1>Welcome to Our Company</h1>
+        <p>Providing premium quality charcoal products for your needs.</p>
       </section>
-    </div>
-  </main>
-</body>
+
+      <!-- Additional Content Section -->
+      <section class="my-5">
+        <h2>Why Choose Us?</h2>
+        <p>We are committed to providing the best products and services in the industry. Our focus is on quality, sustainability, and customer satisfaction.</p>
+      </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="text-center">
+      <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+    
+    
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>

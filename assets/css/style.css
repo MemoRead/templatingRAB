@@ -1,0 +1,24 @@
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+header .btn-outline-dark {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+header .btn-outline-dark:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.hero {
+  background-color: #e3f2fd; /* Light blue */
+  color: #0d6efd; /* Bootstrap primary color */
+}
+
+footer {
+  background-color: #ffffff;
+  color: #6c757d;
+}
